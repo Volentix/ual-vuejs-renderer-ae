@@ -6,6 +6,11 @@
  * API: https://github.com/quasarframework/quasar/blob/master/app/lib/app-extension/IndexAPI.js
  */
 
-module.exports = function (api) {
-  //
+module.exports = function(api) {
+  api.extendQuasarConf((conf, api) => {
+    console.log('Adding to boot file!!!')
+    conf.boot.push(
+      '~quasar-app-extension-ual-vuejs-renderer-ae/src/bootfile.js'
+    )
+  })
 }
