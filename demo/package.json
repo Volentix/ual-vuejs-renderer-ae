@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
-    "quasar": "^1.0.0"
+    "quasar": "^1.0.0",
+    "ual-scatter": "^0.1.6"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",
@@ -22,7 +23,7 @@
     "eslint": "^5.10.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0",
-    "quasar-app-extension-ual-vuejs-renderer-ae": "file:../."
+    "quasar-app-extension-ual-vuejs-renderer-ae": "^0.0.1"
   },
   "engines": {
     "node": ">= 8.9.0",
